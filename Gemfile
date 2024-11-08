@@ -66,6 +66,5 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem 'knock'
-gem 'devise'
-gem 'jwt'
+# gem 'devise'
+# gem 'jwt'
