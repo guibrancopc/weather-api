@@ -67,3 +67,5 @@ group :test do
 end
 
 gem 'knock'
+gem 'devise'
+gem 'jwt'
