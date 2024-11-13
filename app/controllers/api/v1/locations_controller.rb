@@ -6,6 +6,7 @@ class Api::V1::LocationsController < ApiController
     #   id: @location.id,
     #   name: @location.name
     # }
+    render json: @location, include: ['recordings']
   end
 
   private
